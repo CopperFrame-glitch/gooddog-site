@@ -56,19 +56,9 @@ TotalChoice IP. Write that IP down before you change it.
 
 ---
 
-## Removing the "new site" notice
+## "New site" notice
 
-Every page has a soft banner under the navigation reassuring returning
-visitors they're in the right place. Leave it up for a few weeks, then remove it:
-
-1. In each `.html` file, delete the block starting `<div class="notice">`
-   and ending with the matching `</div></div>`
-2. In `style.css`, delete the `.notice` block at the very bottom
-
-Or search-and-replace across all files at once in a text editor like
-Notepad++ or VS Code.
-
----
+Removed from every page and from `style.css` on November 1, 2026.
 
 ## Doggie Bytes balance page
 
@@ -110,9 +100,12 @@ new lookup is working, then it can be retired.
 
 ## Trial callout: November 2026 entries (added October 23, 2026)
 
-Entries for the November 7-8, 2026 trial close **October 28**. Until the trial is over
-the site carries two temporary blocks, each wrapped in
-`<!-- TRIAL CALLOUT: remove after 2026-11-08 ... -->` and `<!-- /TRIAL CALLOUT -->`:
+Entries for the November 7-8, 2026 trial closed **October 28**. On November 1 the ticker was
+changed to "November trial / Trial info and class results" and left up until **November 22**,
+two weeks after the trial, so people can find results. The temporary blocks are wrapped in
+`<!-- TRIAL CALLOUT: remove after 2026-11-22 ... -->` and `<!-- /TRIAL CALLOUT -->`.
+On November 22, also archive the trial (see "Archiving a finished trial" below) so its
+results stay findable under Past trials on `trials.html`:
 
 - **`index.html`** — a yellow `<section class="trialcallout">` at the top of `<main>`, plus
   its `.trialcallout` CSS in the `<style>` block (also between TRIAL CALLOUT comments).
