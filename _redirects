@@ -181,3 +181,30 @@ https://www.gooddog.org/* https://gooddog.org/:splat 301!
 /forms/PREPARING%20FOR%20YOUR%20FIRST%20USDAA%20TRIAL_ver5.pdf /resources/docs/preparing-for-your-first-usdaa-trial.pdf 301
 /forms/*                                                     /resources                                     301
 /secured/*                                                   /resources                                     301
+
+# Old image URLs that still get requests (Netlify 404 logs, late Oct 2026), sent to
+# the file that replaced them. Old photos with no counterpart on the new site are left
+# to 404. Don't point image URLs at HTML pages: search engines treat that as a broken image.
+# Club logo, from the Dreamweaver and WordPress sites
+/images/banner_logo.gif                                       /images/brand/logo.png  301
+/images/banner_logo3.jpg                                      /images/brand/logo.png  301
+/wp-content/uploads/2021/06/Logo.png                          /images/brand/logo.png  301
+/wp-content/uploads/2021/06/logo_Clear_web-clear.png          /images/brand/logo.png  301
+/wp-content/uploads/2021/06/logo_Clear_web-clear-768x768.png  /images/brand/logo.png  301
+/wp-content/uploads/2021/07/logo-1.png                        /images/brand/logo.png  301
+# Home-screen icons older iPhones and Android browsers still ask for
+/apple-touch-icon-precomposed.png          /apple-touch-icon.png  200
+/apple-touch-icon-120x120.png              /apple-touch-icon.png  200
+/apple-touch-icon-120x120-precomposed.png  /apple-touch-icon.png  200
+# Instructor photos from the old Instructors page
+/wp-content/uploads/2022/01/KarenR-227x300.jpeg                  /images/people/karen-r.jpg            301
+/wp-content/uploads/2022/01/KarenR-e1754599994877-300x300.jpeg   /images/people/karen-r.jpg            301
+/wp-content/uploads/2021/06/S17IMG_2516GregorBaxter-1-292x300.jpg  /images/people/gregor-carr.jpg      301
+/wp-content/uploads/2021/08/S17IMG_2516GregorBaxter.jpg          /images/people/gregor-carr.jpg        301
+/images/S17IMG_2516Gregor&Baxter.jpg                             /images/people/gregor-carr.jpg        301
+/wp-content/uploads/2021/08/AcianaYoshi2-e1736275713178.jpg      /images/people/aciana-monasterial.jpg 301
+/wp-content/uploads/2021/08/AcianaKoda-289x300.jpg               /images/people/aciana-monasterial.jpg 301
+# Relative image paths requested under an old WordPress page address
+/what-to-bring-with-you-to-class/images/*  /images/:splat  301
+# Lower-case copy of a catalog link
+/wp-content/uploads/2024/01/gdajan2024usdaacatalog.pdf  /trials/docs/2024/01/GDAJan2024USDAACatalog.pdf  301
