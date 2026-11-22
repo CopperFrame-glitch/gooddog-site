@@ -289,6 +289,9 @@ Copy the most recent upcoming trial page, rename it with the new date, and updat
 description, canonical URL and `og:url`, `<h1>`, facts, JSON-LD (event and breadcrumb),
 the USDAA premium link, and the previous/next links at the bottom. Add it to `trials.html`
 and to `sitemap.xml`.
+Good Dog's own Mesa trial pages carry a "Spectators" row (welcome, free, no non-competing
+dogs), confirmed by the club on November 22, 2026. Keep it when copying a Mesa trial page.
+The Wild West Regional page does not have it, because spectator rules there are USDAA's call.
 
 ## URLs, titles and icons (October 2026)
 
