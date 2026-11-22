@@ -98,6 +98,13 @@ new lookup is working, then it can be retired.
 
 ---
 
+## November 2026 trial archived (November 22, 2026)
+
+The November 7-8, 2026 trial is archived. The TRIAL CALLOUT ticker was replaced on every
+page with the "Registration closed" ticker, the trial's block on `trials.html` moved from
+Upcoming to Past trials, its page eyebrow now reads "Past trial", and `register.html`
+points to the January 2-3, 2027 trial as the next one. The section below is history.
+
 ## Trial callout: November 2026 entries (added October 23, 2026)
 
 Entries for the November 7-8, 2026 trial closed **October 28**. On November 1 the ticker was
